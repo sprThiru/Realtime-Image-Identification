@@ -1,60 +1,35 @@
-body
-{
-    background: #ffd2c7;
-    text-align: center;
-    border: 5px solid #ffd2c7;
+
+body{
+    font-family: 'New Rocker', cursive;
+    font-size: 50px;
+    background:("background.jpg");
+    background-size: 50%;
 }
-.header_div
+.heading
 {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.heading_div
+{
+    float: none;
     background: white;
-    color:tomato;
-    height: 120px;
-    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: black;
+    box-shadow: 10px 10px 10px gray;
+    color: black;
 }
-.header_div img
+
+.heading_div2
 {
-    width:100px;
+    font-size: 20px;
+    background-color:orange ;
 }
-.main_div
-{
-    background: #ffd2c7;
-    padding:10px;
-    margin-top: 15px;
-    border: 3px solid white;
-}
-.main_div label{
-    background: white;
-    width: 310px;
-    padding:10px;
-    margin-bottom:0px;
-    box-shadow: 5px 5px 18px white;
-}
-#camera , #result
-{
-    border: 2px solid white;
-    width:310;
-    height:300px;
-    box-shadow: 5px 5px 18px white;
-}
-.main_div button{
-    width:310px;
-    font-size:19px;
-    box-shadow: 5px 5px 18px white;
-    border: 1px solid;
-}
-.footer_div
-{
-    margin-bottom: 50px;
-}
-.footer_div h4{
-    background: white;
-    border-radius: 10px;
-    padding:5px;
-    box-shadow: 5px 5px 18px white;
-}
-.footer_div img{
-    width:70px;
-}
+
 .copy_right_footer
 {
     position: fixed;
@@ -65,6 +40,29 @@ body
     background-color: white;
     color: gray;
     font-size: 20px;
+    box-shadow: 10px 10px 10px gray;
+}
+canvas
+{
+    box-shadow: 10px 10px 10px gray;
+    margin-top: 130px;
+    border: 5px solid black;
+    width: 300px;
+    height: 300px; 
+    border-radius: 20px;
+    text-align: center;
+}
 
-    
+.result_para_tag
+{
+    box-shadow:10px 10px 10px gray;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: orange;
+}
+
+#result_object_accuracy
+{
+    font-size: 20px; 
+    margin-top: 0px;
 }
